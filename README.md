@@ -20,6 +20,7 @@ Snowpipe is created and is connected to the S3 bucket via SQS notification. As n
 
 A stored procedure is created within snowflake which runs the MERGE command which checks the presence of any existing record. If record exists it updates the value to the new record else it inserts new record. 
 
+![Realtime Snowflake Project Architecture](https://github.com/aritrasarkar99/realtime-snowflake-project/blob/main/SnowflakeProject.jpg)
 
 
 
